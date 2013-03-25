@@ -235,86 +235,86 @@ public class MainFrame extends javax.swing.JFrame {
 
         jToolBar1.setRollover(true);
 
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Information_24x24.png"))); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Properties_24x24.png"))); // NOI18N
         jButton3.setFocusable(false);
         jButton3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton3.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar1.add(jButton3);
         jToolBar1.add(jSeparator1);
 
-        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Information_24x24.png"))); // NOI18N
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Flash Disk_24x24.png"))); // NOI18N
         jButton4.setFocusable(false);
         jButton4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton4.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar1.add(jButton4);
 
-        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Information_24x24.png"))); // NOI18N
+        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Print_24x24.png"))); // NOI18N
         jButton5.setFocusable(false);
         jButton5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton5.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar1.add(jButton5);
         jToolBar1.add(jSeparator4);
 
-        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Information_24x24.png"))); // NOI18N
+        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Picture_24x24.png"))); // NOI18N
         jButton6.setFocusable(false);
         jButton6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton6.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar1.add(jButton6);
 
-        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Information_24x24.png"))); // NOI18N
+        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Rename_24x24.png"))); // NOI18N
         jButton7.setFocusable(false);
         jButton7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton7.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar1.add(jButton7);
         jToolBar1.add(jSeparator6);
 
-        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Information_24x24.png"))); // NOI18N
+        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Check_24x24.png"))); // NOI18N
         jButton8.setFocusable(false);
         jButton8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton8.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar1.add(jButton8);
 
-        jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Information_24x24.png"))); // NOI18N
+        jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Forward_24x24.png"))); // NOI18N
         jButton9.setFocusable(false);
         jButton9.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton9.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar1.add(jButton9);
         jToolBar1.add(jSeparator7);
 
-        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Information_24x24.png"))); // NOI18N
+        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Burn Disk_24x24.png"))); // NOI18N
         jButton10.setFocusable(false);
         jButton10.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton10.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar1.add(jButton10);
         jToolBar1.add(jSeparator5);
 
-        jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Information_24x24.png"))); // NOI18N
+        jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Calendar_24x24.png"))); // NOI18N
         jButton11.setFocusable(false);
         jButton11.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton11.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar1.add(jButton11);
 
-        jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Information_24x24.png"))); // NOI18N
+        jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Edit_24x24.png"))); // NOI18N
         jButton12.setFocusable(false);
         jButton12.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton12.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar1.add(jButton12);
         jToolBar1.add(jSeparator8);
 
-        jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Information_24x24.png"))); // NOI18N
+        jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Compact Disk_24x24.png"))); // NOI18N
         jButton13.setFocusable(false);
         jButton13.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton13.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar1.add(jButton13);
 
-        jButton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Information_24x24.png"))); // NOI18N
+        jButton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Globe_24x24.png"))); // NOI18N
         jButton14.setFocusable(false);
         jButton14.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton14.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar1.add(jButton14);
         jToolBar1.add(jSeparator2);
 
-        jButton15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Information_24x24.png"))); // NOI18N
+        jButton15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Help_24x24.png"))); // NOI18N
         jButton15.setFocusable(false);
         jButton15.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton15.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -517,7 +517,7 @@ public class MainFrame extends javax.swing.JFrame {
         //Load data on table
         dips.populateDips();
         // View dips        
-        helperMainFrame.addPanelToPaneTabbed("Dips", "appointment_missed.png", tbpMainFrame, dips);
+        helperMainFrame.addPanelToPaneTabbed("Dips", "Favorites_32x32.png", tbpMainFrame, dips);
       
     }//GEN-LAST:event_mniViewDipsActionPerformed
 
@@ -525,7 +525,7 @@ public class MainFrame extends javax.swing.JFrame {
         // View all sales
         sales.prepareTable();
         //Add panel to tabbed pane
-        helperMainFrame.addPanelToPaneTabbed("Sales", "appointment_missed.png", tbpMainFrame, sales);
+        helperMainFrame.addPanelToPaneTabbed("Sales", "gas_pump_blue_32.png", tbpMainFrame, sales);
     }//GEN-LAST:event_mniViewSalesActionPerformed
 
     private void mniPricesSetNewPricesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mniPricesSetNewPricesActionPerformed
@@ -539,7 +539,7 @@ public class MainFrame extends javax.swing.JFrame {
         // Show stock levels
         stockUi.prepareTable();
         //Add panel to tabbed pane
-        helperMainFrame.addPanelToPaneTabbed("Stock Levels", "appointment_missed.png", tbpMainFrame, stockUi);       
+        helperMainFrame.addPanelToPaneTabbed("Stock Levels", "Information_32x32.png", tbpMainFrame, stockUi);       
         //Add data to stock table
         stockUi.populateTable();        
         
@@ -549,7 +549,7 @@ public class MainFrame extends javax.swing.JFrame {
         // View all products
         productsUi.prepareTable();
         //Add panel to tabbed pane
-        helperMainFrame.addPanelToPaneTabbed("Products", "appointment_missed.png", tbpMainFrame, productsUi);       
+        helperMainFrame.addPanelToPaneTabbed("Products", "gas_pump_red_32.png", tbpMainFrame, productsUi);       
         //Add data to products table
         productsUi.populateTable();
     }//GEN-LAST:event_jMenuItem14ActionPerformed

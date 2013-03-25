@@ -36,7 +36,7 @@ public class Dips extends javax.swing.JPanel {
         tanks.poulateTanks(cboDipsTanks);
         tanks.poulateTanks(cboDipsAddDipsTank); 
         //Populate products in combo box
-        productsUi.poulateProducts(cboDipsAddDipsProduct);
+        productsUi.populateProducts(cboDipsAddDipsProduct);
     }
 
     /*

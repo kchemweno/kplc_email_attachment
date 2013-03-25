@@ -294,5 +294,16 @@ public class QueryBuilder {
            // System.out.println(sqlQuery);
         }catch(Exception exception){}
         return sqlQuery;
-    }         
+    }     
+    //Get product categories
+    public String getProductCategories(){
+       // int result = 0;
+        sqlQuery = "";
+        try{
+            sqlQuery = "select category_name from "+databaseName+".product_categories";
+           // System.out.println(sqlQuery);
+        }catch(Exception exception){}
+        return sqlQuery;
+    }     
+    
 }

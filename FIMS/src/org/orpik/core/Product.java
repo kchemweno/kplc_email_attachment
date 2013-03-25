@@ -46,8 +46,8 @@ public class Product {
 
     public void setProductCategory(String productCategory) {
         this.productCategory = productCategory;
-    }    
-    
+    }
+
     public String getProductName() {
         return productName;
     }
@@ -77,7 +77,8 @@ public class Product {
         String ids = "";
         try {
             for (JCheckBox chk : dipsCheckBoxes) {
-                if (chk.isSelected()) {//Get only selected product ids
+                if (chk.isSelected()) {
+                    //Get only selected product ids
                     if (chk.getText().equals("Petrol Regular")) {
                         //ids = ids + "," + 24;
                         productIds.add(24);
@@ -126,7 +127,7 @@ public class Product {
         }
         return productsList;
     }
-    
+
     //Get a list of all fuel products
     public ArrayList<Product> getFuelProducts() {
         ArrayList<Product> productsList = new ArrayList<>();
@@ -137,7 +138,7 @@ public class Product {
             if (resultset.next()) {
                 while (!resultset.isAfterLast()) {
                     Product product = new Product();
-                    product.setProductName(resultset.getString("name"));     
+                    product.setProductName(resultset.getString("name"));
                     productsList.add(product);
                     resultset.next();
                 }
@@ -181,5 +182,44 @@ public class Product {
             exception.printStackTrace();
         }
         return productCategoriesHashMap;
+    }
+
+    //populate product categories
+    public void populateProductCategoriesProductUnits(javax.swing.JComboBox cboProductCategory, javax.swing.JComboBox cboProductUnit) {
+        try {
+            if (!getProducts().isEmpty()) {
+                //Clear previous items on product category combo box if any
+                cboProductCategory.removeAllItems();
+                //Load product categories into combo box
+                for (Product product : getProducts()) {
+                    //Check if item is in combo box before adding
+                    if (!isItemInComboBox(cboProductCategory, product.getProductCategory())) {
+                        cboProductCategory.addItem(product.getProductCategory());
+                    }
+                    //Load product units
+                    if (!isItemInComboBox(cboProductUnit, product.getProductUnit())) {
+                        cboProductUnit.addItem(product.getProductUnit());
+                    }
+                }
+            }
+        } catch (Exception exception) {
+            exception.printStackTrace();
+        }
+    }
+    //Check whether combobox contains item
+
+    private boolean isItemInComboBox(javax.swing.JComboBox cbo, String item) {
+        boolean isItemContained = false;
+        try {
+            for (int i = 0; i < cbo.getItemCount(); i++) {
+                if (item.equalsIgnoreCase(cbo.getItemAt(i).toString())) {
+                    isItemContained = true;
+                    break;
+                }
+            }
+        } catch (Exception exception) {
+            exception.printStackTrace();
+        }
+        return isItemContained;
     }
 }
